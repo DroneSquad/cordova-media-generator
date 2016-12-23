@@ -295,14 +295,14 @@ function generate() {
         {
           width: 96,
           height: 96,
-          path: "android/res/mipmap",
+          path: "android/res/drawable",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
         {
           width: 72,
           height: 72,
-          path: "android/res/mipmap-hdpi",
+          path: "android/res/drawable-hdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -337,14 +337,14 @@ function generate() {
         {
           width: 36,
           height: 36,
-          path: "android/res/mipmap-ldpi",
+          path: "android/res/drawable-ldpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
         {
           width: 48,
           height: 48,
-          path: "android/res/mipmap-mdpi",
+          path: "android/res/drawable-mdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -379,7 +379,7 @@ function generate() {
         {
           width: 96,
           height: 96,
-          path: "android/res/mipmap-xhdpi",
+          path: "android/res/drawable-xhdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -389,14 +389,14 @@ function generate() {
         {
           width: 96,
           height: 96,
-          path: "android/bin/res/mipmap",
+          path: "android/bin/res/drawable",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
         {
           width: 72,
           height: 72,
-          path: "android/bin/res/mipmap-hdpi",
+          path: "android/bin/res/drawable-hdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -431,14 +431,14 @@ function generate() {
         {
           width: 36,
           height: 36,
-          path: "android/bin/res/mipmap-ldpi",
+          path: "android/bin/res/drawable-ldpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
         {
           width: 48,
           height: 48,
-          path: "android/bin/res/mipmap-mdpi",
+          path: "android/bin/res/drawable-mdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -473,7 +473,7 @@ function generate() {
         {
           width: 96,
           height: 96,
-          path: "android/bin/res/mipmap-xhdpi",
+          path: "android/bin/res/drawable-xhdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -482,14 +482,14 @@ function generate() {
         {
           width: 96,
           height: 96,
-          path: "android/ant-build/res/mipmap",
+          path: "android/ant-build/res/drawable",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
         {
           width: 72,
           height: 72,
-          path: "android/ant-build/res/mipmap-hdpi",
+          path: "android/ant-build/res/drawable-hdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -524,14 +524,14 @@ function generate() {
         {
           width: 36,
           height: 36,
-          path: "android/ant-build/res/mipmap-ldpi",
+          path: "android/ant-build/res/drawable-ldpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
         {
           width: 48,
           height: 48,
-          path: "android/ant-build/res/mipmap-mdpi",
+          path: "android/ant-build/res/drawable-mdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
@@ -566,7 +566,7 @@ function generate() {
         {
           width: 96,
           height: 96,
-          path: "android/ant-build/res/mipmap-xhdpi",
+          path: "android/ant-build/res/drawable-xhdpi",
           filename: "icon.png",
           source: process.argv[2] || config.icon || config.image
         },
