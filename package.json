@@ -1,7 +1,7 @@
 {
   "name": "cordova-media-generator",
   "version": "0.3.6",
-  "description": "Generates Cordova Media (Splashscreens, Icons & Screenshots)",
+  "description": "Generates Cordova Media (Splashscreens & Icons)",
   "main": "media-gen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

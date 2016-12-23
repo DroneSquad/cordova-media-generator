@@ -4,7 +4,6 @@ var gm = require('gm'),
   mkdirp = require('mkdirp'),
   path = require('path'),
   fs = require('fs'),
-  screenshots = require('./screenshots'),
   config, iOSProjectName,
   q = require('q'),
 	iosIconOut = '/Images.xcassets/AppIcon.appiconset',
@@ -604,14 +603,8 @@ function generate() {
           source: process.argv[2] || config.icon || config.image
         }
 
-        //Screenshot version of the logo
 
       ];
-
-
-    if (config.screenshots && config.screenshots.length)
-      screenshots.pages = config.screenshots;
-
 
     if (config.customImages) {
       config.customImages.forEach(function (item) {
@@ -626,13 +619,12 @@ function generate() {
       console.log("Please specify a background colour in hex values as the third argument, or in a config file");
     } else {
 
-      var totalImages = images.length + (screenshots.pages.length * screenshots.screenshots.length);
+      var totalImages = images.length;
       console.log("------------------------------");
       console.log("   cordova-media-generator");
       console.log("------------------------------");
       console.log("Generating " + totalImages + " images so you don't have to");
       console.log("------------------------------");
-      screenshots.generateAll();
       images.forEach(function (image) {
         var background, sourceImage;
 
@@ -676,9 +668,6 @@ function genConfig() {
     "splash": {"filename":"splash.png","background":"fff"},
     "customImages": [
       {"width": 120, "height": 120, "path": "../Media/custom", "filename":"outputFilename.png", "source":{"filename":"image.png","background":"fff"}}
-    ],
-    "screenshots": [
-      {"url":"http://www.google.com", "name":"homepage"}
     ]
   }, null, 4), function(err){
     deferred.resolve("success");
