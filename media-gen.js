@@ -309,28 +309,28 @@ function generate() {
         {
           width: 800,
           height: 480,
-          path: "android/res/mipmap-land-hdpi",
+          path: "android/res/drawable-land-hdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 320,
           height: 200,
-          path: "android/res/mipmap-land-ldpi",
+          path: "android/res/drawable-land-ldpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 480,
           height: 320,
-          path: "android/res/mipmap-land-mdpi",
+          path: "android/res/drawable-land-mdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 1280,
           height: 720,
-          path: "android/res/mipmap-land-xhdpi",
+          path: "android/res/drawable-land-xhdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
@@ -351,28 +351,28 @@ function generate() {
         {
           width: 480,
           height: 800,
-          path: "android/res/mipmap-port-hdpi",
+          path: "android/res/drawable-port-hdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 200,
           height: 320,
-          path: "android/res/mipmap-port-ldpi",
+          path: "android/res/drawable-port-ldpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 320,
           height: 480,
-          path: "android/res/mipmap-port-mdpi",
+          path: "android/res/drawable-port-mdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 720,
           height: 1280,
-          path: "android/res/mipmap-port-xhdpi",
+          path: "android/res/drawable-port-xhdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
@@ -403,28 +403,28 @@ function generate() {
         {
           width: 800,
           height: 480,
-          path: "android/bin/res/mipmap-land-hdpi",
+          path: "android/bin/res/drawable-land-hdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 320,
           height: 200,
-          path: "android/bin/res/mipmap-land-ldpi",
+          path: "android/bin/res/drawable-land-ldpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 480,
           height: 320,
-          path: "android/bin/res/mipmap-land-mdpi",
+          path: "android/bin/res/drawable-land-mdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 1280,
           height: 720,
-          path: "android/bin/res/mipmap-land-xhdpi",
+          path: "android/bin/res/drawable-land-xhdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
@@ -445,28 +445,28 @@ function generate() {
         {
           width: 480,
           height: 800,
-          path: "android/bin/res/mipmap-port-hdpi",
+          path: "android/bin/res/drawable-port-hdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 200,
           height: 320,
-          path: "android/bin/res/mipmap-port-ldpi",
+          path: "android/bin/res/drawable-port-ldpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 320,
           height: 480,
-          path: "android/bin/res/mipmap-port-mdpi",
+          path: "android/bin/res/drawable-port-mdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 720,
           height: 1280,
-          path: "android/bin/res/mipmap-port-xhdpi",
+          path: "android/bin/res/drawable-port-xhdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
@@ -496,28 +496,28 @@ function generate() {
         {
           width: 800,
           height: 480,
-          path: "android/ant-build/res/mipmap-land-hdpi",
+          path: "android/ant-build/res/drawable-land-hdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 320,
           height: 200,
-          path: "android/ant-build/res/mipmap-land-ldpi",
+          path: "android/ant-build/res/drawable-land-ldpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 480,
           height: 320,
-          path: "android/ant-build/res/mipmap-land-mdpi",
+          path: "android/ant-build/res/drawable-land-mdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 1280,
           height: 720,
-          path: "android/ant-build/res/mipmap-land-xhdpi",
+          path: "android/ant-build/res/drawable-land-xhdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
@@ -538,28 +538,28 @@ function generate() {
         {
           width: 480,
           height: 800,
-          path: "android/ant-build/res/mipmap-port-hdpi",
+          path: "android/ant-build/res/drawable-port-hdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 200,
           height: 320,
-          path: "android/ant-build/res/mipmap-port-ldpi",
+          path: "android/ant-build/res/drawable-port-ldpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 320,
           height: 480,
-          path: "android/ant-build/res/mipmap-port-mdpi",
+          path: "android/ant-build/res/drawable-port-mdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
         {
           width: 720,
           height: 1280,
-          path: "android/ant-build/res/mipmap-port-xhdpi",
+          path: "android/ant-build/res/drawable-port-xhdpi",
           filename: "screen.png",
           source: process.argv[2] || config.splash || config.image
         },
