@@ -18,11 +18,5 @@
                 "background": "fff"
             }
         }
-    ],
-    "screenshots": [
-        {
-            "url": "http://www.google.com",
-            "name": "homepage"
-        }
     ]
 }
